@@ -4,9 +4,9 @@ import JsonToTS from "json-to-ts";
 
 function App() {
   const defaultSchema = {
-    cats: [{ name: "Kittin" }, { name: "Mittin" }],
-    favoriteNumber: 42,
-    favoriteWord: "Hello",
+    people: [{ name: "Tom" }, { name: "Marcus" }, { name: "Dhairya" }],
+    favoriteNumber: 7,
+    favoriteWord: "Octue/Strand",
   };
 
   const [inputSchema, setInputSchema] = useState(defaultSchema);
